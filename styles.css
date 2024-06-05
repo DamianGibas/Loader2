@@ -1,0 +1,26 @@
+body{
+    background-color: #282828;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.loader{
+    place-self: center;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 5px solid #8e8e8e;
+    border-top-color: #ff0000;
+    animation: rotate 1s infinite;
+}
+
+@keyframes rotate {
+    100%{
+
+        rotate: 360deg;
+    }
+
+
+} 
